@@ -2,7 +2,7 @@
 
 Denne guiden hjelper deg med å sette opp en Raspberry Pi, installere Ubuntu på Raspberry Pi 4 og installere nødvendige verktøy som MariaDB og Git. Du vil også konfigurere systemet med oppdateringer, brannmur og SSH. Deretter lærer du hvordan du styrer Raspberry Pi eksternt fra en annen maskin ved hjelp av SSH, og logger inn via CMD på Windows. Til slutt oppretter vi en ny databasebruker, kloner et prosjekt fra GitHub, og kobler databasen til Python-koden.
 
-# Fysisk oppsett av Raspberry Pi og serveroppsett
+# Oppsett av Raspberry Pi
 
 ## Fysisk oppsett
 
