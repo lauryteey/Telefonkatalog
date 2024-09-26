@@ -182,7 +182,7 @@ Når du er inne i MariaDB-prompten, kan du opprette en ny bruker med følgende k
 ``` sql
 CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
 ```
-Bytt ut username med ønsket brukernavn, og bytt ut password med et sikkert passord for denne brukeren.
+Bytt ut username med din brukernavn, og bytt ut password for denne brukeren.
 
 ## 4. Gi ny bruker rettigheter
 
@@ -207,7 +207,7 @@ Du kan installere annen programvare etter behov, som for eksempel VS Code, nettl
 
 Start med å åpne terminalen ved å bruke tastatursnarveien `CTRL + ALT + T`.
 
-## 2. Installer ønsket programvare
+## 2. Installer andre programvare
 
 For å installere annen programvare, som for eksempel Wireshark eller Nmap. 
 
@@ -351,7 +351,7 @@ pwd #Sjekker gjeldende arbeidskatalog
 Opprett en ny katalog som heter kode ved å bruke følgende kommando:
 
 ```bash
-mkdir kode #Lager en ny katalog som heter kode
+mkdir kode #Lager en ny katalog som heter `kode`.
 ```
 
 ## 4. Gå inn i den nye katalogen
