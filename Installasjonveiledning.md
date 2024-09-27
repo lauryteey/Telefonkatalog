@@ -102,7 +102,6 @@ sudo systemctl enable ssh #Aktiverer SSH ved oppstart
 Hvis du vil bruke SSH umiddelbart, kan du starte SSH-serveren med denne kommandoen:
 
 ````bash
-Kopier kode
 sudo systemctl start ssh #Starter SSH-serveren nå
 ````
 # Finne IP-adressen på Raspberry Pi
