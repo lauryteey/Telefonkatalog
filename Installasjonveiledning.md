@@ -23,7 +23,7 @@ Dette forklarer hvordan du installerer og konfigurerer SSH på en Raspberry Pi v
 
 ## 1. Åpne terminalen
 
-For å starte installasjonen, åpne terminalen ved å bruke tastatursnarveien `CTRL + ALT + T`.
+For å starte installasjonen, åpne terminalen på Raspberry pi ved å bruke tastatursnarveien `CTRL + ALT + T`.
 
 ## 2. Installer SSH-serveren
 
