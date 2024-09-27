@@ -2,9 +2,54 @@
 
 Denne guiden hjelper deg med å sette opp en Raspberry Pi, installere Ubuntu på Raspberry Pi 4 og installere nødvendige verktøy som MariaDB og Git. Du vil også konfigurere systemet med oppdateringer, brannmur og SSH. Deretter lærer du hvordan du styrer Raspberry Pi eksternt fra en annen maskin ved hjelp av SSH, og logger inn via CMD på Windows. Til slutt oppretter vi en ny databasebruker, kloner et prosjekt fra GitHub, og kobler databasen til Python-koden.
 
-# Oppsett av Raspberry Pi
+# Installere Ubuntu på Raspberry Pi 4
 
-## Fysisk oppsett
+laste ned og installerer Ubuntu på din Raspberry Pi 4.
+
+## 1. Last ned Raspberry Pi Imager
+
+1. Gå til [Raspberry Pi Imager](https://www.raspberrypi.com/software/) nettsiden.
+2. Last ned og installer Raspberry Pi Imager på din PC eller Mac.
+
+## 2. Velg din Raspberry Pi device
+
+1. Åpne Raspberry Pi Imager 
+2. Klikk på **Raspberry Pi device**
+3. Velg **Raspberry Pi 4**
+# Oppsett av Raspberry Pi
+## 3. Velg Ubuntu som operativsystem
+
+1. Åpne Raspberry Pi Imager.
+2. Klikk på **Choose OS**.
+3. Rull ned og velg **Other general-purpose OS**.
+4. Velg **Ubuntu** og deretter den versjonen du vil installere, i denne tilfellet den nyeste versjon.
+
+## 3. Velg SD-kort
+1. Slå av Raspberry Pi 4 ved bruk av følgende kommando: 
+````bash
+sudo shutdown
+````
+2. Sett SD-kortet du vil bruke inn på PC-en din.
+3. Klikk på **Choose Storage** og velg SD-kortet du vil bruke.
+
+## 4. Skriv til SD-kortet
+1. Klikk på **Write** for å skrive Ubuntu til SD-kortet.
+2. Vent til prosessen er ferdig.
+
+## 5. Sett inn SD-kortet i Raspberry Pi
+1. Ta SD-kortet ut av PC-en når skrivingen er fullført.
+2. Sett SD-kortet inn i Raspberry Pi.
+
+## 6. Start opp Raspberry Pi
+1. Koble til strøm, tastatur, mus, skjerm og eventuelt Ethernet-kabel.
+2. Slå på Raspberry Pi.
+3. Følg veiledningen på skjermen for å fullføre installasjonen av Ubuntu.
+
+---
+
+Nå har du Ubuntu installert på din Raspberry Pi 4!
+
+## Fysisk oppsett av Raspberry Pi
 
 1. Gå til [denne YouTube-videoen](https://youtu.be/S9CYlpbSz-c?si=zw-Jelt5Yc_EjZT9) og følg instruksjonene for det fysiske oppsettet av din Raspberry Pi.
 2. Koble til strøm, tastatur, mus, skjerm og eventuelt Ethernet-kabel. Husk å velge **norsk tastatur** under oppsettet.
@@ -123,7 +168,7 @@ ip a
 Se etter din IP-adresse i utdataene fra kommandoen.
 
 Hvis du er koblet til et kablet nettverk, finner du IP-adressen under eth0: linjen.
-Hvis du bruker et trådløst nettverk, vil IP-adressen vises under wlan0: linjen.
+Hvis du bruker et trådløst nettverk, vil IP-adressen vises under wlan0: linjen på Inet.
 
 # Installere Git, Python og MariaDB på Raspberry Pi
 
@@ -285,52 +330,9 @@ exit
 ````
 Dette vil avslutte tilkoblingen til Raspberry Pi.
 
-# Installere Ubuntu på Raspberry Pi 4
 
-laste ned og installerer Ubuntu på din Raspberry Pi 4.
 
-## 1. Last ned Raspberry Pi Imager
 
-1. Gå til [Raspberry Pi Imager](https://www.raspberrypi.com/software/) nettsiden.
-2. Last ned og installer Raspberry Pi Imager på din PC eller Mac.
-
-## 2. Velg din Raspberry Pi device
-
-1. Åpne Raspberry Pi Imager 
-2. Klikk på **Raspberry Pi device**
-3. Velg **Raspberry Pi 4**
-
-## 3. Velg Ubuntu som operativsystem
-
-1. Åpne Raspberry Pi Imager.
-2. Klikk på **Choose OS**.
-3. Rull ned og velg **Other general-purpose OS**.
-4. Velg **Ubuntu** og deretter den versjonen du vil installere, i denne tilfellet den nyeste versjon.
-
-## 3. Velg SD-kort
-1. Slå av Raspberry Pi 4 ved bruk av følgende kommando: 
-````bash
-sudo shutdown
-````
-2. Sett SD-kortet du vil bruke inn på PC-en din.
-3. Klikk på **Choose Storage** og velg SD-kortet du vil bruke.
-
-## 4. Skriv til SD-kortet
-1. Klikk på **Write** for å skrive Ubuntu til SD-kortet.
-2. Vent til prosessen er ferdig.
-
-## 5. Sett inn SD-kortet i Raspberry Pi
-1. Ta SD-kortet ut av PC-en når skrivingen er fullført.
-2. Sett SD-kortet inn i Raspberry Pi.
-
-## 6. Start opp Raspberry Pi
-1. Koble til strøm, tastatur, mus, skjerm og eventuelt Ethernet-kabel.
-2. Slå på Raspberry Pi.
-3. Følg veiledningen på skjermen for å fullføre installasjonen av Ubuntu.
-
----
-
-Nå har du Ubuntu installert på din Raspberry Pi 4!
 
 # Last ned prosjekt fra GitHub til Raspberry Pi
 
