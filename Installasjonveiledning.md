@@ -7,12 +7,12 @@ Denne guiden hjelper deg med å sette opp en Raspberry Pi, installere Ubuntu på
 ## Fysisk oppsett
 
 1. Gå til [denne YouTube-videoen](https://youtu.be/S9CYlpbSz-c?si=zw-Jelt5Yc_EjZT9) og følg instruksjonene for det fysiske oppsettet av din Raspberry Pi.
-   - Husk å velge **norsk tastatur** under oppsettet.
+2. Koble til strøm, tastatur, mus, skjerm og eventuelt Ethernet-kabel. Husk å velge **norsk tastatur** under oppsettet.
 
-2. Koble til det trådløse nettverket `kuben.it` med følgende passord:
+3. Koble til det trådløse nettverket `kuben.it` med følgende passord:
    - **Passord:** `IMKuben1337!`
 
-3. Sørg for at du har koblet til tastatur, mus og skjerm for å kunne fortsette oppsettet.
+4. Sørg for at du har koblet til tastatur, mus og skjerm for å kunne fortsette oppsettet.
 
 
 
@@ -309,11 +309,11 @@ laste ned og installerer Ubuntu på din Raspberry Pi 4.
 4. Velg **Ubuntu** og deretter den versjonen du vil installere, i denne tilfellet den nyeste versjon.
 
 ## 3. Velg SD-kort
-1. Skru ned din Raspberry Pi 4 ved bruk av følgende kommando: 
+1. Slå av Raspberry Pi 4 ved bruk av følgende kommando: 
 ````bash
 sudo shutdown
 ````
-2. Sett SD-kortet du vil bruke innen på PC-en din.
+2. Sett SD-kortet du vil bruke inn på PC-en din.
 3. Klikk på **Choose Storage** og velg SD-kortet du vil bruke.
 
 ## 4. Skriv til SD-kortet
