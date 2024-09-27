@@ -245,6 +245,9 @@ ssh brukernavn@ip_adresse
 ````
 Bytt ut brukernavn og IP- adressen med ditt faktiske brukernavn og IP-adressen på Raspberry Pi. 
 
+**Merk:
+Første gang du kobler til Raspberry Pi fra en ny datamaskin, vil du bli spurt om du vil godta tilkoblingen. Skriv `Yes`og trykk `Enter`.** 
+
 ### Full tilgang til Raspberry Pi
 
 Når du er koblet til, har du full tilgang til Raspberry Pi og kan administrere den eksternt.
@@ -269,9 +272,6 @@ ssh brukernavn@ip-adresse
 ## 3. Skriv inn passordet ditt
 
 Etter å ha trykket `Enter`, vil du bli bedt om å skrive inn passordet til brukeren på Raspberry Pi (som standard er det ofte raspberry hvis du ikke har endret det).
-
-**Merk:
-Første gang du kobler til Raspberry Pi fra en ny datamaskin, vil du bli spurt om du vil godta tilkoblingen. Skriv `Yes`og trykk `Enter`.** 
 
 ## 4. Bekreft tilkoblingen
 
